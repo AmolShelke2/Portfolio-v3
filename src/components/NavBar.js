@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { faBars, faTimes } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
   const links = [
@@ -39,7 +39,7 @@ const NavBar = () => {
         <h1 className="text-5xl font-signature ml-2">Amol</h1>
       </div>
 
-      <ul className="flex">
+      <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             className="px-4 cursor-pointer capitalize font-medium
@@ -50,6 +50,10 @@ const NavBar = () => {
           </li>
         ))}
       </ul>
+
+      <div className=" cursor-pointer pr-4 z-10 text-gray-500">
+        <FaBars size={30} />
+      </div>
     </div>
   );
 };
