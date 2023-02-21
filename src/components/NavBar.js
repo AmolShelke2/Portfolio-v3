@@ -40,13 +40,13 @@ const NavBar = () => {
       </div>
 
       <ul className="flex">
-        {links.map(link => (
+        {links.map(({ id, link }) => (
           <li
             className="px-4 cursor-pointer capitalize font-medium
          text-gray-500 hover:scale-105 duration-200"
-            key={link.id}
+            key={id}
           >
-            {link.link}
+            {link}
           </li>
         ))}
       </ul>
