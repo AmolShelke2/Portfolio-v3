@@ -25,7 +25,7 @@ const Home = () => {
           </p>
 
           <div>
-            <button>
+            <button className="text-white">
               Portfolio{' '}
               <span>
                 <MdOutlineKeyboardArrowRight />
