@@ -5,7 +5,7 @@ const About = () => {
     <div
       name="about"
       className="w-full h-screen bg-gradient-to-b
-       from-gray-800 to-black text-white"
+       from-gray-800 to-black text-white px-4"
     >
       <div
         className="max-w-screen-lg mx-auto flex flex-col 
