@@ -28,7 +28,7 @@ const SocialLinks = () => {
     },
 
     {
-      id: 2,
+      id: 3,
       child: (
         <>
           Linkedin <FaLinkedin size={30} />
@@ -38,7 +38,7 @@ const SocialLinks = () => {
     },
 
     {
-      id: 3,
+      id: 4,
       child: (
         <>
           Mail <HiOutlineMail size={30} />
@@ -48,7 +48,7 @@ const SocialLinks = () => {
     },
 
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
