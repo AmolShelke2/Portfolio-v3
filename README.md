@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Portfolio-v3
+
+This is my new portfolio website created with ReactJS and Tailwind CSS❤️. I'm Learning Tailwind CSS and it's awesome. This portfolio website is fully responsive for all devices.
+
+Give a ⭐ to the repo if you love my Portfolio website.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
