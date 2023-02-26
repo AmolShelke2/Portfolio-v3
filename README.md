@@ -2,7 +2,36 @@
 
 This is my new portfolio website created with ReactJS and Tailwind CSS❤️. I'm Learning Tailwind CSS and it's awesome. This portfolio website is fully responsive for all devices.
 
+It's still not finished I will be adding blog and Experince section with some crazy animations❤️‍🔥.
+
 Give a ⭐ to the repo if you love my Portfolio website.
+
+<hr>
+
+## Tech stack
+
+- React
+- Tailwind
+
+<hr>
+
+## Things I learn from this project
+
+- Writing more complex Tailwind classes
+- Used React scroll for smooth scrolling
+- Mobile first approch with Tailwind
+- work with useState hook for creating navbar responsive using conditional rendering
+
+<hr>
+
+## Sections
+
+- Navbar
+- Home
+- About
+- Portfolio
+- Experince
+- Contact
 
 ## Getting Started with Create React App
 
