@@ -17,20 +17,19 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam
-          consequatur quae ea quam doloribus, sit aperiam impedit magni sint
-          maxime, enim error itaque quisquam pariatur? Officia minus doloremque
-          qui delectus illum. Enim, sit maxime laboriosam, necessitatibus cum in
-          maiores ad perferendis quam vitae explicabo nihil at rerum error! Nam?
+          Hey, There I'm Amol Shelke I'm a Front-End Developer.I'm a second year
+          undergraduated student currently pursuing BCA from RTMNU Nagpur
+          university. I have 1 year of experince building delightful websites
+          and designs. I love to work with technologies such as HTML, CSS,
+          JavaScript,React and Most favorite Tailwind❤️. I'm currently looking
+          for an Internship or entry level job, If you have any openings for an
+          intern or any project for me then you can write a message below.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          maxime eaque impedit reprehenderit, minima nihil, ab cupiditate porro
-          voluptatibus aut delectus iusto officiis voluptates maiores vel?
-          Voluptatum, odit esse nam officiis aliquid commodi assumenda,
-          cupiditate obcaecati excepturi tempora unde repudiandae perspiciatis
-          illo minima quae maiores. Quis necessitatibus fuga eum illo?
+          As a self-tought developer I have completed 2 #100daysofcode
+          challenges and created plenty of projects and shared them on Github. I
+          was new back then still I share my all journey on Linkedin.
         </p>
       </div>
     </div>
