@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -8,27 +9,27 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: 'Home',
+      link: "Home",
     },
 
     {
       id: 2,
-      link: 'About',
+      link: "About",
     },
 
     {
       id: 3,
-      link: 'Portfolio',
+      link: "Portfolio",
     },
 
     {
       id: 4,
-      link: 'Experience',
+      link: "Experience",
     },
 
     {
       id: 5,
-      link: 'Contact',
+      link: "Contact",
     },
   ];
 
@@ -48,7 +49,9 @@ const NavBar = () => {
          text-gray-500 hover:scale-105 duration-200"
             key={id}
           >
-            {link}
+            <Link to={link} smooth duration={500}>
+              {link}
+            </Link>
           </li>
         ))}
       </ul>
