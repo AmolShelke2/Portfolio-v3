@@ -33,6 +33,8 @@ Give a ⭐ to the repo if you love my Portfolio website.
 - Experince
 - Contact
 
+<hr>
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
