@@ -75,7 +75,14 @@ const NavBar = () => {
             text-4xl"
               key={id}
             >
-              {link}
+              <Link
+                onClick={() => setNav(!nav)}
+                to={link}
+                smooth
+                duration={500}
+              >
+                {link}
+              </Link>
             </li>
           ))}
         </ul>
