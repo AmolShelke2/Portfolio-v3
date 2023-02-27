@@ -24,7 +24,7 @@ const NavBar = () => {
 
     {
       id: 4,
-      link: "Experience",
+      link: "Skills",
     },
 
     {
