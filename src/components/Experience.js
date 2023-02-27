@@ -1,8 +1,5 @@
 import React from "react";
 
-import codedamn from "../assets/experience/codedamn.png";
-import girlScript from "../assets/experience/girlscript.jpg";
-
 const Experience = () => {
   return (
     <div
