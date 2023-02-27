@@ -10,7 +10,7 @@ import nextjsIcon from "../assets/nextjs.png";
 import nodeIcon from "../assets/node.png";
 import tailwindIcon from "../assets/tailwind.png";
 
-const Experience = () => {
+const Skills = () => {
   const skills = [
     {
       id: 1,
@@ -78,7 +78,7 @@ const Experience = () => {
 
   return (
     <div
-      name="Experience"
+      name="Skills"
       className="bg-gradient-to-b from-gray-800 to-black text-white
       w-full md:h-screen"
     >
@@ -116,4 +116,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Skills;
