@@ -72,6 +72,17 @@ const Experience = () => {
             </div>
             <div>
               <h2>Codedamn</h2>
+              <h4>nov-022 to feb-023</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laborum, animi? Quod iure ad recusandae veniam.
+              </p>
+
+              <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+              </ul>
             </div>
           </div>
         </div>
