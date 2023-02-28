@@ -65,7 +65,7 @@ const Experience = () => {
           <p className="my-8">Here is my work experience</p>
         </div>
 
-        <div className="flex flex-row justify-center items-center">
+        <div className="flex flex-row justify-center items-center flex-wrap">
           <div>
             <div>
               <img src={codedamn} alt="codedamn" />
