@@ -1,5 +1,8 @@
 import React from "react";
 
+import codedamn from "../assets/experience/codedamn.png";
+import girlscript from "../assets/experience/girlscript.jpg";
+
 const Experience = () => {
   return (
     <div
@@ -19,6 +22,14 @@ const Experience = () => {
             Experience
           </p>
           <p className="my-8">Here is my work experience</p>
+        </div>
+
+        <div>
+          <div>
+            <div>
+              <img src="" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
