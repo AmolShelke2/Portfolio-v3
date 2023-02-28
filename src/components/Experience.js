@@ -4,6 +4,47 @@ import codedamn from "../assets/experience/codedamn.png";
 import girlscript from "../assets/experience/girlscript.jpg";
 
 const Experience = () => {
+  const experinces = [
+    {
+      company: "codedamn",
+      role: "Tech Support team",
+      date: "Nov-022 to Feb-023",
+      description:
+        "Codedamn is a E-learning platform where coders can learn and apply there skills practically",
+      tasks: {
+        task1: "Writen blogs on various technologies",
+        task2: "Become an top performer and get extended for 6 months",
+        task3: "Written plag free articles",
+      },
+    },
+
+    {
+      company: "Girlscript foundation",
+      role: "Open-source developer",
+      date: "Feb-022 to May-022",
+      description:
+        "Girlscript foundation is an non-profitable organization which provides free open-source coding opportunities.",
+      tasks: {
+        task1: "Created contributions over 15+ github repositories",
+        task2: "Become a top performer with 15th rank all over India",
+        task3: "Created all the contributions without any plagiarisms",
+      },
+    },
+
+    {
+      company: "#100daysofcode",
+      role: "Self-tought developer",
+      date: "Dec-021 to Mar-022",
+      description:
+        "#100daysofcode is an challenging way of learning and posting your progress with other as a self-tought developer",
+      tasks: {
+        task1: "Started Learning web development with zero knowldge",
+        task2: "Learned HTML, CSS and JavaScript in this challenge",
+        task3: "Created and deployed multiple projects with github and vercel",
+      },
+    },
+  ];
+
   return (
     <div
       name="Experience"
@@ -27,7 +68,10 @@ const Experience = () => {
         <div>
           <div>
             <div>
-              <img src="" alt="" />
+              <img src={codedamn} alt="codedamn" />
+            </div>
+            <div>
+              <h2>Codedamn</h2>
             </div>
           </div>
         </div>
