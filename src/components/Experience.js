@@ -65,19 +65,19 @@ const Experience = () => {
           <p className="my-8">Here is my work experience</p>
         </div>
 
-        <div>
+        <div className="flex flex-row justify-center items-center">
           <div>
             <div>
               <img src={codedamn} alt="codedamn" />
             </div>
             <div>
               <h2>Codedamn</h2>
+              <h3>Tech Support team</h3>
               <h4>nov-022 to feb-023</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Laborum, animi? Quod iure ad recusandae veniam.
               </p>
-
               <ul>
                 <li>Lorem ipsum dolor sit amet.</li>
                 <li>Lorem ipsum dolor sit amet.</li>
