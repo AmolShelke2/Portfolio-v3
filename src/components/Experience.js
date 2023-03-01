@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 
 import codedamn from "../assets/experience/codedamn.png";
 import girlscript from "../assets/experience/girlscript.jpg";
+import hundredDaysOfCode from "../assets/experience/100daysofcode.jpg";
 
 const Experience = () => {
   useEffect(() => {
