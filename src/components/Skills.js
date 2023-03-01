@@ -1,4 +1,6 @@
 import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
