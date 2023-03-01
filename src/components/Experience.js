@@ -61,7 +61,7 @@ const Experience = () => {
     >
       <div
         className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center
-        text-white flex-wrap"
+        text-white md:flex-wrap lg:flex-wrap"
       >
         <div>
           <p
@@ -73,8 +73,31 @@ const Experience = () => {
           <p className="my-8">Here is my work experience</p>
         </div>
 
-        <div className="flex flex-row justify-center items-center flex-wrap">
-          <div>
+        <div
+          className="flex flex-row justify-center items-center 
+        md:flex-wrap lg:flex-wrap"
+        >
+          <div className="h-80 w-80">
+            <div>
+              <img src={codedamn} alt="codedamn" />
+            </div>
+            <div>
+              <h2>Codedamn</h2>
+              <h3>Tech Support team</h3>
+              <h4>nov-022 to feb-023</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laborum, animi? Quod iure ad recusandae veniam.
+              </p>
+              <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="h-80 w-80">
             <div>
               <img src={codedamn} alt="codedamn" />
             </div>
