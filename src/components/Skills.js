@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -13,6 +13,10 @@ import nodeIcon from "../assets/node.png";
 import tailwindIcon from "../assets/tailwind.png";
 
 const Skills = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   const skills = [
     {
       id: 1,
@@ -83,6 +87,7 @@ const Skills = () => {
       name="Skills"
       className="bg-gradient-to-b from-gray-800 to-black text-white
       w-full md:h-screen"
+      data-aos="fade-up"
     >
       <div
         className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center

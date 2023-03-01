@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import codedamn from "../assets/experience/codedamn.png";
 import girlscript from "../assets/experience/girlscript.jpg";
 
 const Experience = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   const experinces = [
     {
       company: "codedamn",
@@ -48,6 +55,7 @@ const Experience = () => {
   return (
     <div
       name="Experience"
+      data-aos="fade-up"
       className="bg-gradient-to-b from-gray-800 to-black text-white
       w-full md:h-screen"
     >

@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div
       name="About"
+      data-aos="fade-up"
       className="w-full h-screen bg-gradient-to-b
        from-gray-800 to-black text-white px-4"
     >
