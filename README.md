@@ -36,6 +36,12 @@ Give a ⭐ to the repo if you love my Portfolio website.
 
 <hr>
 
+## Live Preview
+
+[portfolio-v3](https://portfolio-v3-beta-lovat.vercel.app/)
+
+<hr>
+
 ## Preview
 
 ![localhost_3000_(Nest Hub Max)](https://user-images.githubusercontent.com/95171638/222509127-fa9df13c-2bb3-486f-ae74-806520417f63.png)
