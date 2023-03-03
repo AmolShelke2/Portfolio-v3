@@ -12,6 +12,7 @@ Give a ⭐ to the repo if you love my Portfolio website.
 
 - React
 - Tailwind
+- Frontend
 
 <hr>
 
