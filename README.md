@@ -29,6 +29,7 @@ Give a ⭐ to the repo if you love my Portfolio website.
 - Navbar
 - Home
 - About
+- Skills
 - Portfolio
 - Experince
 - Contact
@@ -36,8 +37,8 @@ Give a ⭐ to the repo if you love my Portfolio website.
 <hr>
 
 ## Preview
-![localhost_3000_(Nest Hub Max)](https://user-images.githubusercontent.com/95171638/222509127-fa9df13c-2bb3-486f-ae74-806520417f63.png)
 
+![localhost_3000_(Nest Hub Max)](https://user-images.githubusercontent.com/95171638/222509127-fa9df13c-2bb3-486f-ae74-806520417f63.png)
 
 ## Getting Started with Create React App
 
