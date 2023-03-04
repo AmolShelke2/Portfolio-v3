@@ -13,6 +13,7 @@ const Experience = () => {
 
   const experinces = [
     {
+      id: 1,
       company: "codedamn",
       role: "Tech Support team",
       date: "Nov-022 to Feb-023",
@@ -23,6 +24,7 @@ const Experience = () => {
     },
 
     {
+      id: 2,
       company: "Girlscript foundation",
       role: "Open-source developer",
       date: "Feb-022 to May-022",
@@ -56,7 +58,10 @@ const Experience = () => {
 
         <div className="flex flex-row justify-center items-center flex-wrap">
           {experinces.map(experience => (
-            <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-gray-600 mx-6 mb-4 lg:my-6">
+            <div
+              key={experience.id}
+              className="max-w-sm rounded overflow-hidden shadow-lg shadow-gray-600 mx-6 mb-4 lg:my-6"
+            >
               <img className="w-full" src={experience.logo} alt="Mountain" />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-1">
