@@ -19,31 +19,43 @@ const Portfolio = () => {
     {
       id: 1,
       src: covid,
+      live: "https://covid-landing-page-seven.vercel.app/",
+      code: "https://github.com/AmolShelke2/Covid-landing-page",
     },
 
     {
       id: 2,
       src: discord,
+      live: "https://discord-ui-ten.vercel.app/",
+      code: "https://github.com/AmolShelke2/Discord-UI",
     },
 
     {
       id: 3,
       src: eCommerce,
+      live: "https://e-commerce-website-rose-nu.vercel.app/",
+      code: "https://github.com/AmolShelke2/e-commerce-website",
     },
 
     {
       id: 4,
       src: portfolio,
+      live: "https://portfolio-v3-beta-lovat.vercel.app/",
+      code: "https://github.com/AmolShelke2/Portfolio-v3",
     },
 
     {
       id: 5,
       src: todo,
+      live: "https://todo-list-v2-nine.vercel.app/",
+      code: "https://github.com/AmolShelke2/TodoList-v2",
     },
 
     {
       id: 6,
       src: weather,
+      live: "https://weather-app-reactjs-eta.vercel.app/",
+      code: "https://github.com/AmolShelke2/weather-app-reactjs",
     },
   ];
 
