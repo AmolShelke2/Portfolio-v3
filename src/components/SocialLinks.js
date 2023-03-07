@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -31,10 +31,10 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Linkedin <FaLinkedin size={30} />
+          Twitter <FaTwitter size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/amol-shelke-627813220/",
+      href: "https://twitter.com/Amol_shelke09",
     },
 
     {
