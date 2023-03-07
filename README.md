@@ -62,3 +62,8 @@ cd Portfolio-v3
 
 code .
 ```
+
+## Socials
+
+- [LinkedIn](https://www.linkedin.com/in/amol-shelke-627813220/)
+- [Twitter](https://twitter.com/Amol_shelke09)
