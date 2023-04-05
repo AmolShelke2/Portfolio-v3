@@ -8,8 +8,9 @@ import git from "../assets/git.png";
 import github from "../assets/github.png";
 import javascript from "../assets/javascript.png";
 import reactIcon from "../assets/react.png";
+import npmIcon from "../assets/icons8-npm-240.png";
 import nextjsIcon from "../assets/nextjs.png";
-import nodeIcon from "../assets/node.png";
+
 import tailwindIcon from "../assets/tailwind.png";
 
 const Skills = () => {
@@ -62,9 +63,9 @@ const Skills = () => {
 
     {
       id: 7,
-      src: nodeIcon,
-      title: "Node",
-      style: "shadow-green-500",
+      src: npmIcon,
+      title: "NPM",
+      style: "shadow-red-500",
     },
 
     {

@@ -16,7 +16,7 @@ const Experience = () => {
       id: 1,
       company: "codedamn",
       role: "Tech Support team",
-      date: "Nov-022 to Feb-023",
+      date: "Nov-022 to Mar-023",
       logo: codedamn,
       description:
         "Codedamn is a E-learning platform where coders can learn and apply there skills practically. I work there as a technical content writer and written multiple blogs on various technologies",
@@ -27,7 +27,7 @@ const Experience = () => {
       id: 2,
       company: "Girlscript foundation",
       role: "Open-source developer",
-      date: "Feb-022 to May-022",
+      date: "Mar-022 to Jun-022",
       logo: girlscript,
       description:
         "Girlscript foundation is an non-profitable organization which provides free open-source coding opportunities. I work at Girlscript foundation as a open-source contributor and in the period of 3 months I have done more than 60+ contributions.",
