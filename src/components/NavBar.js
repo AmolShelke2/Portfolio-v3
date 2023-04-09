@@ -40,12 +40,12 @@ const NavBar = () => {
 
   return (
     <div
-      className={`flex justify-between items-center w-full h-20 px-5 z-10 text-white bg-black ${
+      className={`flex justify-between items-center w-full h-20 px-6 z-10 text-white bg-black md:px-16 ${
         nav ? "fixed" : "static"
       }`}
     >
       <div>
-        <h1 className="text-5xl font-signature ml-2">Amol</h1>
+        <h1 className="text-5xl font-signature ml-2">Amol Shelke</h1>
       </div>
 
       <ul className="hidden md:flex">
