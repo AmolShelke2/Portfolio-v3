@@ -40,7 +40,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`flex justify-between items-center w-full h-20 px-6 z-10 text-white bg-black md:px-16 ${
+      className={`flex justify-between items-center w-full h-20 px-4 z-10 text-white bg-black md:px-16 ${
         nav ? "fixed" : "static"
       }`}
     >
