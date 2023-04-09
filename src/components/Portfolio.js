@@ -86,7 +86,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt="covid-landing-project"
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 h-[20vh] w-full hover:scale-105"
               />
 
               <div className="flex items-center justify-center">
