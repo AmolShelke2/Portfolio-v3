@@ -1,7 +1,17 @@
 import React from "react";
 
 const Blogs = () => {
-  return <div>Blogs</div>;
+  const blogsData = [
+    {
+      blogTitle: "What is the difference between global and local variables",
+    },
+  ];
+
+  return (
+    <div className="parent">
+      <div className="blog-card"></div>
+    </div>
+  );
 };
 
 export default Blogs;
