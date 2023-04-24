@@ -33,6 +33,17 @@ const Experience = () => {
         "Girlscript foundation is an non-profitable organization which provides free open-source coding opportunities. I work at Girlscript foundation as a open-source contributor.",
       topics: ["webdev", "frontend", "open-source"],
     },
+
+    {
+      id: 3,
+      company: "Skilzen",
+      role: "Frontend Developer Intern",
+      date: "Apr-023 - present",
+      logo: girlscript,
+      description:
+        "Skilzen is a Banglore based startup which aims on guiding students through their education products. I'm working as an frontend-UI developer at skilzen.",
+      topics: ["Frontend", "Next.JS", "TypeScript", "TailwindCSS"],
+    },
   ];
 
   return (
