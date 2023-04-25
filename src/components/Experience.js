@@ -30,19 +30,8 @@ const Experience = () => {
       date: "Mar-022 to Jun-022",
       logo: girlscript,
       description:
-        "Girlscript foundation is an non-profitable organization which provides free open-source coding opportunities. I work at Girlscript foundation as a open-source contributor.",
+        "Girlscript foundation is an non-profitable organization which provides free open-source coding opportunities. I work at Girlscript foundation as a open-source contributor and in the period of 3 months I have done more than 60+ contributions.",
       topics: ["webdev", "frontend", "open-source"],
-    },
-
-    {
-      id: 3,
-      company: "Skilzen",
-      role: "Frontend Developer Intern",
-      date: "Apr-023 - present",
-      logo: girlscript,
-      description:
-        "Skilzen is a Banglore based startup which aims on guiding students through their education products. I'm working as an frontend-UI developer at skilzen.",
-      topics: ["Frontend", "Next.JS", "TypeScript", "TailwindCSS"],
     },
   ];
 
@@ -67,17 +56,13 @@ const Experience = () => {
           <p className="my-8">Here is my work experience</p>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-center items-center">
+        <div className="flex flex-row justify-center items-center flex-wrap">
           {experinces.map(experience => (
             <div
               key={experience.id}
-              className="w-[25vw] h-[65vh] rounded overflow-hidden shadow-lg shadow-gray-600 mx-6 mb-4 lg:my-6"
+              className="max-w-sm rounded overflow-hidden shadow-lg shadow-gray-600 mx-6 mb-4 lg:my-6"
             >
-              <img
-                className="h-[20vh] w-full"
-                src={experience.logo}
-                alt="Mountain"
-              />
+              <img className="w-full" src={experience.logo} alt="Mountain" />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-1">
                   {experience.company}
